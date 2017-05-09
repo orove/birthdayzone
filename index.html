@@ -1,3 +1,12 @@
+<?php
+    session_start();
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        if (isset($_POST["email"]) && isset($_POST["password"])) {
+            $_session["mail"] = $_POST["email"];
+            header ('location:  bienvenida.php');
+        }
+}
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -18,7 +27,8 @@
 				</div>
 			</header>
 			
-			<div id="login">	
+			<div id="login">
+                            <form action="configuracion.php" method="POST">
 				<div id="formulario">
 					<fieldset>
 						<legend>Login</legend>
@@ -35,7 +45,8 @@
 					
 					<input type="submit" name="entrar" value="Entrar" />
 					<input type="button" name="salir" value="Salir" />
-				</div>				
+				</div>	
+                            </form>
 			</div>
 			
 			<footer>
