@@ -1,0 +1,10 @@
+
+@import "estilo-320-480.css";
+
+@import "estilo-480-800.css";
+
+@import "estilo-800-1280.css";
+
+@import "estilo-1280-superior.css";
+
+@import "estilo-impresora.css";
