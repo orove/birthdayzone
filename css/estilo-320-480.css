@@ -15,7 +15,7 @@ html,body {      /* notar que a la etiqueta html tambien se le aplica estilo */
 
 header, footer {
    width: 100%;      /* ancho del header y footer */
-   background-color:orange; /* color de fondo */
+   background-color:darkblue; /* color de fondo */
    color:black;             /* color del texto */
    text-align:center; /* texo centrado */
    padding:0px;       /* espacio del contenido con el borde del header */
