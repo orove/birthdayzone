@@ -159,3 +159,15 @@ fieldset {
 #login input {
     width: 90%;
 }
+
+input[type="submit"]{
+    -webkit-box-shadow: #666 0px 2px 15px;
+    -moz-box-shadow: #666 0px 2px 15px;
+    box-shadow: #666 0px 2px 15px; 
+}
+
+input[type="button"]{
+    -webkit-box-shadow: #666 0px 2px 15px;
+    -moz-box-shadow: #666 0px 2px 15px;
+    box-shadow: #666 0px 2px 15px; 
+}
