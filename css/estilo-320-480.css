@@ -15,7 +15,7 @@ html,body {      /* notar que a la etiqueta html tambien se le aplica estilo */
 
 header, footer {
    width: 100%;      /* ancho del header y footer */
-   background-color:orange; /* color de fondo */
+   background-color:darkblue; /* color de fondo */
    color:black;             /* color del texto */
    text-align:center; /* texo centrado */
    padding:0px;       /* espacio del contenido con el borde del header */
@@ -122,6 +122,7 @@ input {
 
 fieldset {
     text-align:left;
+    background-color: lightyellow;
 }
 
 
@@ -158,4 +159,16 @@ fieldset {
 
 #login input {
     width: 90%;
+}
+
+input[type="submit"]{
+    -webkit-box-shadow: #666 0px 2px 15px;
+    -moz-box-shadow: #666 0px 2px 15px;
+    box-shadow: #666 0px 2px 15px; 
+}
+
+input[type="button"]{
+    -webkit-box-shadow: #666 0px 2px 15px;
+    -moz-box-shadow: #666 0px 2px 15px;
+    box-shadow: #666 0px 2px 15px; 
 }
