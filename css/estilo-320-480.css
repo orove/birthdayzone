@@ -105,6 +105,10 @@ input {
 
 /* SECTION LOGIN */
 
+#contenido{
+    background: url(../img/fondo.jpg);
+}
+
 #login {
 	min-height:200px;
 	text-align:center;
