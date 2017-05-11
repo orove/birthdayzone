@@ -104,6 +104,10 @@ input {
 }
 
 /* SECTION LOGIN */
+form{
+    background: lightyellow!important;
+}
+
 
 #contenido{
     background: url(../img/fondo.jpg);
