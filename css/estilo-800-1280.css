@@ -3,7 +3,7 @@
 
 	footer p:after { 
 		content:"Sitio optimizado para resolución entre 800px y 1280 de ancho.";
-		color:white; 
+		color:darkblue; 
 		text-align:center;
 		display:block;
 		width: 280px;

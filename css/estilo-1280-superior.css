@@ -2,7 +2,8 @@
 @media only screen and (min-width : 1280px) {
 
 	header {
-		height:150px;		
+		height:150px;	
+                color:darkblue; 
 	}
 	
 	#titulo h1 {
@@ -19,7 +20,7 @@
 	
 	footer p:after { 
 		content:"Sitio optimizado para una resolución de ancho 1280px ó superior.";
-		color:white; 
+		color:darkblue; 
 		text-align:center;
 		display:block;
 		width: 280px;
