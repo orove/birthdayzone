@@ -2,7 +2,7 @@
 
 	footer p:after { 
 		content:"Versión Impresa";
-		color:black; 
+		color:darkblue; 
 		text-align:center;
 		display:block;
 		width: 240px;
