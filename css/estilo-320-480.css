@@ -39,7 +39,7 @@ footer {
     float:left;
     padding: 0;
     padding-bottom:15px;
-    color:black;    
+    color:black;
 }
 
 #titulo h1 {
@@ -68,15 +68,15 @@ footer p {
 }
 
 
-footer p:after { 
+footer p:after {
         content:"Sitio optimizado para resolución entre 320px y 480px de ancho.";
-        color:white; 
+        color:white;
         text-align:center;
         display:block;
         width: 280px;
         margin-left:auto;
         margin-right:auto;
-        
+
 }
 
 #logo-empresa img {
@@ -124,7 +124,9 @@ fieldset {
     text-align:left;
     background-color: lightyellow;
 }
-
+legend{
+  font-size: 1.5em;
+}
 
 #login input[type="button"] {
     width: 120px;
@@ -164,11 +166,11 @@ fieldset {
 input[type="submit"]{
     -webkit-box-shadow: #666 0px 2px 15px;
     -moz-box-shadow: #666 0px 2px 15px;
-    box-shadow: #666 0px 2px 15px; 
+    box-shadow: #666 0px 2px 15px;
 }
 
 input[type="button"]{
     -webkit-box-shadow: #666 0px 2px 15px;
     -moz-box-shadow: #666 0px 2px 15px;
-    box-shadow: #666 0px 2px 15px; 
+    box-shadow: #666 0px 2px 15px;
 }
