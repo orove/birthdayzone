@@ -15,7 +15,9 @@
            
                 
 	}
-		
+	body {
+        color: darkblue;
+        }	
 	
 	footer p:after { 
 		content:"Sitio optimizado para una resolución de ancho 1280px ó superior.";

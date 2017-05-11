@@ -2,7 +2,7 @@
 
 	footer p:after { 
 		content:"Versión Impresa";
-		color:black; 
+		color:darkblue; /*black*/
 		text-align:center;
 		display:block;
 		width: 240px;
@@ -10,6 +10,10 @@
 		margin-right:auto;
 	}
 	
+        body {
+                color: darkblue;
+        }
+        
 	#logo-empresa img {
 		content: url(../img/logo-800-1280.png);
 		width:120px;
