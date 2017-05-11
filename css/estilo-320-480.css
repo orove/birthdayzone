@@ -104,6 +104,14 @@ input {
 }
 
 /* SECTION LOGIN */
+form{
+    background: lightyellow!important;
+}
+
+
+#contenido{
+    background: url(../img/fondo.jpg);
+}
 
 #login {
 	min-height:200px;
