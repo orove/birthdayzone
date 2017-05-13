@@ -13,8 +13,8 @@
 		margin-top:0;
 	}
 	
-	#logo-empresa img {
-		content: url(../img/logo-800-1280.png);
+	#logoinicial img {
+		content: url(../img/globos.jpg);
 		width:120px;
 		height:80px;
 		margin-top: 20px;

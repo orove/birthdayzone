@@ -13,8 +13,8 @@
 		margin-top:0;
 	}
 	
-	#logo-empresa img {
-		content: url(../img/logo-480-800.png);
+	#logoinicial img {
+		content: url(../img/celebracion.jpg);
 		width:120px;
 		height:80px;
 		margin-top: 20px;

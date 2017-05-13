@@ -79,8 +79,8 @@ footer p:after {
         
 }
 
-#logo-empresa img {
-        content: url(../img/logo-320-480.png);
+#logoinicial img {
+        content: url(../img/mini.jpg);
         width:80px;
         height:80px;
         margin-top: 10px;
