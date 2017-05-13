@@ -29,11 +29,17 @@
 		margin-top:0;
 	}
 	
-	#logoinicial img {
-		content: url(../img/logo inicial.jpg);
+	#logo-empresa img {
+		content: url(../img/logo-inicial.jpg);
 		width:240px;
 		height:120px;
 		margin-top: 30px;
 	}
+        
+        fieldset legend
+        {
+            font-size: 1.5em;
+            
+        }
 	
 }

@@ -10,8 +10,8 @@
 		margin-right:auto;
 	}
 	
-	#logoinicial img {
-		content: url(../img/logo inicial.jpg);
+	#logo-empresa img {
+		content: url(../img/logo-inicial.jpg);
 		width:120px;
 		height:80px;
 		margin-top: 20px;
