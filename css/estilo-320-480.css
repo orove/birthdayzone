@@ -16,7 +16,11 @@ html,body {      /* notar que a la etiqueta html tambien se le aplica estilo */
 header, footer {
    width: 100%;      /* ancho del header y footer */
    background-color:orange; /* color de fondo */
+<<<<<<< HEAD
    color:black;            /* color del texto */
+=======
+   color:darkblue;             /* color del texto */
+>>>>>>> origin/001V
    text-align:center; /* texo centrado */
    padding:0px;       /* espacio del contenido con el borde del header */
 }
@@ -39,7 +43,7 @@ footer {
     float:left;
     padding: 0;
     padding-bottom:15px;
-    color:black;    
+    color:white;    
 }
 
 #titulo h1 {
@@ -108,6 +112,14 @@ body {
 }
 
 /* SECTION LOGIN */
+form{
+    background: lightyellow!important;
+}
+
+
+#contenido{
+    background: url(../img/fondo.jpg);
+}
 
 #login {
 	min-height:200px;
@@ -162,4 +174,10 @@ fieldset {
 
 #login input {
     width: 90%;
+}
+
+
+fieldset input {
+    color: darkgreen;
+    font-weight: bold;
 }
