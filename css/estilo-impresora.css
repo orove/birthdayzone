@@ -2,11 +2,9 @@
 
 	footer p:after { 
 		content:"Versión Impresa";
-<<<<<<< HEAD
+
 		color:darkblue; /*black*/
-=======
-		color:darkblue; 
->>>>>>> origin/001V
+
 		text-align:center;
 		display:block;
 		width: 240px;
