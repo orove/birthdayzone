@@ -136,6 +136,10 @@ fieldset {
     text-align:left;
 }
 
+fieldset legend {
+    font-size: 1.5em;
+}
+
 
 #login input[type="button"] {
     width: 120px;
